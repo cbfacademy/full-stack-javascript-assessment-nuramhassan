@@ -1,15 +1,24 @@
 import React, { useState } from "react";
+//import { uuid } from "uuidv4";
 
 const Form = () => {
   const [form, setForm] = useState({ resturant: "", review: "", id: null });
+  const [reviews, setReviews] = useState({  });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
+ };
+ 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setReviews([...reviews, form]);
+    setForm({ restaurant: "", review: "", id: null });
+  };
 
     // set Form = form['restaurant] = output of resturant review stuff I typed
     return (
-      <form>
+      <form onSubmit={handleSubmit}>
         <h2> Leave a review </h2>
         <label htmlFor="restaurant">Restuarant</label>
         <input
@@ -32,7 +41,7 @@ const Form = () => {
         <button type="submit">Submit</button>
       </form>
     );
-  };
+ 
 };
 
 export default Form;

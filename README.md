@@ -35,6 +35,7 @@ By default, this codebase has been set up as a mono-repo; to deploy as a monolit
 By the end of this assessment, you will have demonstrated your ability to:
 
 1. **Design and Architect Applications**: Understand the nuances of designing a user-centric application, from your user's journey to how they interact with your database.
+https://www.figma.com/file/3cz2fbjOVrCv4B95lYjomE/Ratings-%26-Reviews-App-(Community)?type=design&node-id=263-26378&mode=design&t=SYwYTABKoqAvMFg8-0 
 1. **Implement Best Practices**: Showcase your proficiency in following coding standards and structuring a project optimally.
 1. **Utilise Full-Stack Development**: Master using React for your frontend, Node.js for your backend logic, and MongoDB for your data needs.
 1. **Implement CI/CD**: Get hands-on with setting up and managing a CI/CD pipeline, leveraging tools like GitHub Actions.

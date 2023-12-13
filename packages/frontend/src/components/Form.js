@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-//import { uuid } from "uuidv4";
+import Button from "react-bootstrap/Button";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Form = () => {
   const [form, setForm] = useState({ resturant: "", review: "", id: null });
@@ -38,7 +39,7 @@ const Form = () => {
           name="review"
           onChange={handleChange}
         />
-        <button type="submit">Submit</button>
+        <Button type="submit">Submit</Button>
       </form>
     );
  

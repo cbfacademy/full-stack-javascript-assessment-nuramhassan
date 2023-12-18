@@ -7,6 +7,7 @@ function App() {
     <h1> Welcome to Rainbow Noir! </h1>
     <Form />
   </div>)
+  
 }
 
 export default App;

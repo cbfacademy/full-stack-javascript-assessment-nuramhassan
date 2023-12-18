@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
+//import Button from "react-bootstrap/Button";
 //import "bootstrap/dist/css/bootstrap.min.css";
 
 const Form = () => {
@@ -39,7 +39,7 @@ const Form = () => {
           name="review"
           onChange={handleChange}
         />
-        <Button type="submit">Submit</Button>
+        <button type="submit">Submit</button>
       </form>
     );
  

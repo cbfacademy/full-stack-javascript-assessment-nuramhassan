@@ -41,7 +41,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background: #cfd8dc;
+  background: #ffea72;
 }
 
 .nav-bar ul {
@@ -131,4 +131,16 @@
   font-family: RobotoBold;
   font-size: large;
   margin: 0px 20px;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.white{
+  color:white;
 }

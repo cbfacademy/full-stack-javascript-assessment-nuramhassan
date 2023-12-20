@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import WriteReview from "../pages/WriteReview";
+import CompanyDetails from '../pages/CompanyDetails';
 import {BrowserRouter, Routes, Route, Outlet} from 'react-router-dom';
 
 export default function Router() {
@@ -24,6 +25,7 @@ export default function Router() {
               <Route path="/" element={<Home />} />
               <Route path="write-a-review" element={<WriteReview />} />
               <Route path="contact-us" element={<Contact />} />
+              <Route path="companies/:id" element={<CompanyDetails />} />
             </Route>
           </Routes>
         </BrowserRouter>

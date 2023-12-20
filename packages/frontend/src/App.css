@@ -144,3 +144,33 @@
 .white{
   color:white;
 }
+
+.productBox {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.productBox li {
+  text-align: centre;
+}
+
+.productBox a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.productBox a:hover {
+  color:#ffea72;
+}
+
+.producLink:hover img {
+  border: 2px solid #61dafb
+}
+
+.productImage {
+  border: 2px solid #282c34;
+  border-radius: 20px;
+  width: 250px;
+}

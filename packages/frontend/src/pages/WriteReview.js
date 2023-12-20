@@ -4,7 +4,10 @@ function WriteReview() {
     return (
         <>
             <h1> Write a review </h1>
-            <div><Form /></div>
+            <div>
+                <Form />
+                
+                </div>
             
         
         </>

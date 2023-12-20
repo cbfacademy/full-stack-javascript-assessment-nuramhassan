@@ -9,6 +9,9 @@ export default function Header(props) {
             <li>
               <a href="/">Home</a>
             </li>
+            <li>
+              <a href="/write-a-review">Write a Review</a>
+            </li>
             <li> 
               <a href="/contact—us">Contact</a>
             </li>

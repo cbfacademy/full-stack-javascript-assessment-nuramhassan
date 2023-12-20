@@ -4,6 +4,10 @@ import React from 'react';
 function Footer () {
 
   return (
+    // <div className="footer">
+    //   <p>Copyright 2023 Nura Productions</p>
+
+    // </div>
     <section className="footer">
       <hr className="footer-seperator" />
       <section className="footer-social-media">

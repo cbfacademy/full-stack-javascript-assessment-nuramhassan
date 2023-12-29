@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "./index.css";
-import Navbar from "./views/components/Shared/Navbar";
+import Navbar from "./views/components/Navbar";
 import AddReview from "./views/pages/AddReview";
 import ReadReview from "./views/pages/ReadReview";
 function App() {

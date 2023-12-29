@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import icon from "../../../assets/MenuFilled.png";
-import search from "../../../assets/Vector.png";
+import icon from "../../assets/MenuFilled.png";
+import search from "../../assets/Vector.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

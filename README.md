@@ -40,6 +40,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 To quit running the app, press `Ctrl`+`C`
 
+# Design
+## UI Design
+🔗[Figma Link](https://www.figma.com/file/3cz2fbjOVrCv4B95lYjomE/Ratings-%26-Reviews-App-(Community)?type=design&node-id=263-26378&mode=design&t=UGqnR5S04EDQh6o2-0)
+
+## User Story
+
+## Diagrams
+
+
 ## Where users can get help with your project
 ## Who maintains and contributes to the project
 
@@ -91,9 +100,9 @@ By completing this assessment, you're set for a holistic dive into full-stack de
 
 ## Requirements
 
-- **Frontend**: Utilise React for creating user interfaces
-- **Backend**: Build an API using Node.js and Express.js
-- **Database**: Utilise MongoDB for data storage
+✅  **Frontend**: Utilise React for creating user interfaces
+✅  **Backend**: Build an API using Node.js and Express.js
+✅  **Database**: Utilise MongoDB for data storage
 
 ### What we expect you to accomplish
 

@@ -1,10 +1,45 @@
-# RainBowNoir 
-![](packages/frontend/src/assets/rainbow-spectrum-sphere-abstract-vector-13744763.jpg)
+ # <img src="packages/frontend/src/assets/logo.png" width="50"> RainBowNoir
+
 ## Purpose
 RainBowNoir is a wed-based platform that offers a secure and transparent environment for comprehensive reviews of companies and products. Our assessments encompass broad categories like amenities while also integrating specific insights from neurodiverse individuals. These unique perspectives illuminate details that others might overlook or undervalue.
 
 ### Why the project is useful
-#### How users can get started with the project
+
+It allows the integratiom specific insights from marginalized communities such as Black, queer, or neurodiverse individuals. These diverse perspectives shed light on nuanced details that might be overlooked or underestimated by others, enriching the depth and accuracy of our reviews.
+
+# How users can get started with the project
+
+1. From the [frontend](**packages/frontend**) folder run:
+
+### `npm install`
+
+This will ensure that all package dependencies needed to run, test and build the app are downloaded from the internet first.
+
+Once done, you can run any of the following commands:
+
+### `npm run dev`
+
+Runs the backend insuring the DB is ready and Node is running.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+To quit running the app, press `Ctrl`+`C`
+
+   
+2.  From the [backend](packages/backend) folder run:
+
+   ### `npm install`
+
+This will ensure that all package dependencies needed to run, test and build the app are downloaded from the internet first.
+
+Once done, you can run any of the following commands:
+
+### `npm run start-dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+To quit running the app, press `Ctrl`+`C`
+
 ## Where users can get help with your project
 ## Who maintains and contributes to the project
 

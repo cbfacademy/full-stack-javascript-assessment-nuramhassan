@@ -1,6 +1,6 @@
  # <img src="packages/frontend/src/assets/logo.png" width="50"> RainBowNoir
 
-## Purpose
+## About RainBowNoir
 RainBowNoir is a wed-based platform that offers a secure and transparent environment for comprehensive reviews of companies and products. Our assessments encompass broad categories like amenities while also integrating specific insights from neurodiverse individuals. These unique perspectives illuminate details that others might overlook or undervalue.
 
 ### Why the project is useful
@@ -9,6 +9,10 @@ It allows the integratiom specific insights from marginalized communities such a
 
 # How users can get started with the project
 
+## Launch the app to a live environment 
+Use the Link
+
+## Locally running the app
 1. From the [frontend](**packages/frontend**) folder run:
 
 ### `npm install`
@@ -48,10 +52,21 @@ To quit running the app, press `Ctrl`+`C`
 
 ## Diagrams
 
+# Tech
 
+## TechStack
+1.  **✅Frontend**: Utilise React for creating user interfaces, Tailwind for Styling
+2.  **✅Backend**: Build an API using Node.js and Express.js
+3.  **✅Database**: MongoDB for data storage, Imagebb for Image storage (Due to memory constraints i had to seperate the 2 databases as not to slow down the app
+4.  **❌Deployment**: AWS 
+
+# Challenges & Feedback 
+
+# Help & Credits 
 ## Where users can get help with your project
 ## Who maintains and contributes to the project
 
+-----------------------------------------------------------
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/V8cWq51n)
 # Full Stack JavaScript Assessment
 

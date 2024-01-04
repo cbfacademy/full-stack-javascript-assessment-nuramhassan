@@ -25,18 +25,7 @@
   - [Where users can get help with your project](#where-users-can-get-help-with-your-project)
     - [Contact](#contact)
     - [Acknowledgments](#acknowledgments)
-- [Full Stack JavaScript Assessment](#full-stack-javascript-assessment)
-  - [Introduction](#introduction)
-    - [Learning Outcomes](#learning-outcomes)
-  - [Requirements](#requirements)
-    - [What we expect you to accomplish](#what-we-expect-you-to-accomplish)
-  - [Getting started](#getting-started)
-  - [Things to consider whilst building your application](#things-to-consider-whilst-building-your-application)
-    - [Design](#design-1)
-    - [Code Quality & Structure](#code-quality--structure)
-    - [Deployment](#deployment)
-    - [Feedback](#feedback)
-  - [Deliverables / What You Should Submit](#deliverables--what-you-should-submit)
+
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

@@ -2,9 +2,12 @@ import React, { useEffect, useState } from "react";
 import { CiStar } from "react-icons/ci";
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
+
 const ReadReview = () => {
+  // State to store the review list retrieved from the API
   const [reviewList, setReviewList] = useState({});
 
+  // Fetch review list data from the API on component mount
   useEffect(() => {
     fetch(`http://localhost:5001/api/product-review-list`, {
       method: "GET",
@@ -16,7 +19,7 @@ const ReadReview = () => {
       .then((data) => setReviewList(data.data));
   }, []);
 
-  // Calculate the sum of review stars
+   // Calculate total review stars
   const totalReviewStars = reviewList?.reviews?.reduce(
     (sum, review) => sum + review.reviewStar,
     0
@@ -26,6 +29,7 @@ const ReadReview = () => {
   const averageReviewRating = totalReviewStars / reviewList?.reviews?.length;
 
   return (
+    // Container for displaying review information
     <div className=" md:w-full mx-auto my-8 lg:w-7/12">
       <div className="text-center py-6">
         <h2 className="text-2xl font-semibold">

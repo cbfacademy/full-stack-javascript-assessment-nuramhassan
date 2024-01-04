@@ -45,3 +45,15 @@ CSS Import:
 
 import './index.css': Imports a CSS file (presumably for styling the application) to be applied globally.
 In relation to the previous code snippet provided (App.jsx), the App component in App.jsx sets up the structure, routes, and components of the React application. The main.jsx file is responsible for rendering this App component into the HTML document by creating a root instance and using ReactDOM to mount the application within the HTML element with the ID 'root'.
+
+# AddReview
+
+The code consists of a functional component AddReview responsible for rendering a form to add a review.
+State hooks (useState) manage various elements of the form such as review stars, preview images, profile image, and product data.
+Functions (handleStarClick, handleProfileImageChange, handleOnBlur, handleImageChange, submitData) handle user interactions, form changes, and submission.
+JSX elements within the return statement create the form structure with input fields, buttons, and sections for review rating, review details, image uploads, and user information.
+
+# ReadReview
+
+This component (ReadReview) displays a collection of reviews fetched from an API endpoint.
+It utilizes useState and useEffect hooks to manage the review data and fetch the data from the API when the component mounts.

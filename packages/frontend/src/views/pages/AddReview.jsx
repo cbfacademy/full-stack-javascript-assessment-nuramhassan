@@ -5,20 +5,23 @@ import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+// State for preview image, review star, profile image, and product data
 const AddReview = () => {
   //preview image
   const [previewSrcs, setPreviewSrcs] = useState([]);
   const [reviewStar, setReviewStar] = useState(0);
-  const notify = () => toast("Uploaded Successfully!");
+  const notify = () => toast("Uploaded Successfully!");// Function to display notification
   const handleStarClick = (starCount) => {
-    setReviewStar(starCount);
+    setReviewStar(starCount); // Update review star count
   };
 
+   // Access navigation functionalities
   const navigate = useNavigate();
 
-  const [profileImage, setProfileImage] = useState([]);
-  const [productData, setProductData] = useState([]);
+  const [profileImage, setProfileImage] = useState([]); // State for profile image
+  const [productData, setProductData] = useState([]); // State for product data
 
+  // Function to handle profile image change
   const handleProfileImageChange = (e) => {
     const file = e.target.files[0];
 
@@ -28,21 +31,24 @@ const AddReview = () => {
       reader.onloadend = () => {
         // You can use the reader.result as the data URL for displaying an image preview
         console.log("File Content as Data URL:", reader.result);
-        setProfileImage(reader.result);
+        setProfileImage(reader.result); // Set profile image data URL
       };
 
       reader.readAsDataURL(file);
     }
   };
 
+  // Function to handle onBlur event for input fields
   const handleOnBlur = (event) => {
     const field = event.target.name;
     const value = event.target.value;
 
     const newData = { ...productData };
     newData[field] = value;
-    setProductData(newData);
+    setProductData(newData);// Update product data
   };
+
+    // Function to handle image change for product images
   const handleImageChange = async (e) => {
     const files = Array.from(e.target.files);
     const urls = [];
@@ -56,6 +62,8 @@ const AddReview = () => {
       reader.readAsDataURL(files[i]);
     }
   };
+
+  // Function to submit form data
   const submitData = (e) => {
     e.preventDefault();
     const postData = {
@@ -78,7 +86,7 @@ const AddReview = () => {
         if (data) {
           e.target.reset();
           setReviewStar(0);
-          notify();
+          notify(); // Display success notification
           navigate("/", {
             replace: true,
           });

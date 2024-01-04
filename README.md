@@ -1,3 +1,13 @@
+# RainBowNoir 
+
+## Purpose
+RainBowNoir is a wed-based platform that offers a secure and transparent environment for comprehensive reviews of companies and products. Our assessments encompass broad categories like amenities while also integrating specific insights from neurodiverse individuals. These unique perspectives illuminate details that others might overlook or undervalue.
+
+### Why the project is useful
+#### How users can get started with the project
+## Where users can get help with your project
+## Who maintains and contributes to the project
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/V8cWq51n)
 # Full Stack JavaScript Assessment
 

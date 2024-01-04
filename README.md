@@ -64,7 +64,32 @@ To quit running the app, press `Ctrl`+`C`
 
 # Help & Credits 
 ## Where users can get help with your project
-## Who maintains and contributes to the project
+<!-- CONTACT -->
+### Contact
+
+Nura Hassan - [@your_twitter](https://twitter.com/your_username) 
+
+Project Link: [Repo Link](https://github.com/cbfacademy/full-stack-javascript-assessment-nuramhassan.git)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+### Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+
 
 -----------------------------------------------------------
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/V8cWq51n)

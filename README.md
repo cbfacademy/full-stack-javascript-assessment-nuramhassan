@@ -1,4 +1,5 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+ # <img src="packages/frontend/src/assets/logo.png" width="50"> RainBowNoir
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
@@ -39,9 +40,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
- # <img src="packages/frontend/src/assets/logo.png" width="50"> RainBowNoir
 
-## About RainBowNoir
+
+## Purpose: About RainBowNoir
 RainBowNoir is a wed-based platform that offers a secure and transparent environment for comprehensive reviews of companies and products. Our assessments encompass broad categories like amenities while also integrating specific insights from neurodiverse individuals. These unique perspectives illuminate details that others might overlook or undervalue.
 
 ### Why the project is useful

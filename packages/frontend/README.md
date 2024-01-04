@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# App.jsx Explanation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This code sets up a basic React application with routing using the React Router library. Here's what it does:
 
-## Available Scripts
+Imports:
 
-In the project directory, you can run:
+Imports necessary components and styles from external files. It brings in components like Navbar, AddReview, and ReadReview as well as CSS files.
+App Function:
 
-### `npm start`
+Defines the main App function/component.
+Utilizes the <BrowserRouter> component from react-router-dom to enable routing in the application.
+Routes:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sets up different routes within the <Routes> component.
+Defines two routes:
+Route 1: Matches the URL '/' and renders the AddReview component when the URL matches exactly.
+Route 2: Matches the URL '/read-review' and renders the ReadReview component when the URL matches exactly.
+Rendering:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Renders the <Navbar> component at the top of the application, ensuring it is displayed across different routes.
+Renders the defined routes using the <Routes> component.
+Comments:
 
-### `npm test`
+Includes comments to explain the purpose of different parts of the code, such as imports, routing setup, and suggestions for exporting the component.
+In summary, this code sets up a simple React application with two routes ('/' and '/read-review') and uses React Router to manage navigation between these routes. It includes a Navbar component that remains visible across different pages/routes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Main.jsx
 
-### `npm run build`
+main.jsx file  is responsible for rendering the React application into the HTML document by mounting the root component.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+what each line does:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Imports:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+import React from 'react': Imports the React library, enabling the use of JSX syntax and React components.
+import ReactDOM from 'react-dom/client': Imports the ReactDOM module specifically from the client build of React DOM, allowing direct access to methods like createRoot for rendering the application.
+Component Rendering:
 
-### `npm run eject`
+ReactDOM.createRoot(document.getElementById('root')).render(...): This line creates a root instance using createRoot() and renders the application into the HTML element with the ID of 'root'.
+createRoot(document.getElementById('root')): Creates a root instance that is responsible for rendering the React application into the DOM element with the ID 'root'.
+.render(...): Renders the React application.
+<React.StrictMode>: Wraps the App component with StrictMode. This is a tool for highlighting potential issues in the application during development, such as deprecated lifecycle methods or unsafe actions.
+<App />: Renders the App component, which is the root component of the application. This component structure aligns with the code previously explained, where the App component sets up routes and defines the main structure of the application.
+CSS Import:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+import './index.css': Imports a CSS file (presumably for styling the application) to be applied globally.
+In relation to the previous code snippet provided (App.jsx), the App component in App.jsx sets up the structure, routes, and components of the React application. The main.jsx file is responsible for rendering this App component into the HTML document by creating a root instance and using ReactDOM to mount the application within the HTML element with the ID 'root'.

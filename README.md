@@ -91,7 +91,7 @@ To quit running the app, press `Ctrl`+`C`
 🔗[Figma Link](https://www.figma.com/file/3cz2fbjOVrCv4B95lYjomE/Ratings-%26-Reviews-App-(Community)?type=design&node-id=263-26378&mode=design&t=UGqnR5S04EDQh6o2-0)
 
 ## User Story
-
+<img src="packages/frontend/src/assets/Sign in & Sign up page.png" width="100">
 ## Diagrams
 
 # Tech

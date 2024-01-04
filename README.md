@@ -16,24 +16,13 @@
   - [Diagrams](#diagrams)
   - [Where users can get help with your project](#where-users-can-get-help-with-your-project)
   - [Who maintains and contributes to the project](#who-maintains-and-contributes-to-the-project)
-- [Full Stack JavaScript Assessment](#full-stack-javascript-assessment)
-  - [Introduction](#introduction)
-    - [Learning Outcomes](#learning-outcomes)
-  - [Requirements](#requirements)
-    - [What we expect you to accomplish](#what-we-expect-you-to-accomplish)
-  - [Getting started](#getting-started)
-  - [Things to consider whilst building your application](#things-to-consider-whilst-building-your-application)
-    - [Design](#design-1)
-    - [Code Quality & Structure](#code-quality--structure)
-    - [Deployment](#deployment)
-    - [Feedback](#feedback)
-  - [Deliverables / What You Should Submit](#deliverables--what-you-should-submit)
+
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
  # <img src="packages/frontend/src/assets/logo.png" width="50"> RainBowNoir
 
-## About RainBowNoir
+## Purpose: About RainBowNoir
 RainBowNoir is a wed-based platform that offers a secure and transparent environment for comprehensive reviews of companies and products. Our assessments encompass broad categories like amenities while also integrating specific insights from neurodiverse individuals. These unique perspectives illuminate details that others might overlook or undervalue.
 
 ### Why the project is useful

@@ -1,7 +1,7 @@
 # UserFlow
 The user flow [2] for _**RainBowNoir**_ consists of two processes – a user journey where the user writes a review and one where the user reads reviews.
 
-<img src="packages/frontend/src/assets/UserFlow .png" width="600" height="500">
+<img src="packages/frontend/src/assets/UserFlow .png">
 
 ## Writing a Review
 

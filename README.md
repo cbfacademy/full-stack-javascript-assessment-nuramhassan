@@ -25,18 +25,7 @@
   - [Where users can get help with your project](#where-users-can-get-help-with-your-project)
     - [Contact](#contact)
     - [Acknowledgments](#acknowledgments)
-- [Full Stack JavaScript Assessment](#full-stack-javascript-assessment)
-  - [Introduction](#introduction)
-    - [Learning Outcomes](#learning-outcomes)
-  - [Requirements](#requirements)
-    - [What we expect you to accomplish](#what-we-expect-you-to-accomplish)
-  - [Getting started](#getting-started)
-  - [Things to consider whilst building your application](#things-to-consider-whilst-building-your-application)
-    - [Design](#design-1)
-    - [Code Quality & Structure](#code-quality--structure)
-    - [Deployment](#deployment)
-    - [Feedback](#feedback)
-  - [Deliverables / What You Should Submit](#deliverables--what-you-should-submit)
+
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -50,6 +39,9 @@ RainBowNoir is a wed-based platform that offers a secure and transparent environ
 It allows the integratiom specific insights from marginalized communities such as Black, queer, or neurodiverse individuals. These diverse perspectives shed light on nuanced details that might be overlooked or underestimated by others, enriching the depth and accuracy of our reviews.
 
 # How users can get started with the project
+
+## Folder Navigation 
+For both frontend and backend folders i have given detailed information to potray my logic in the ReadMe's in each corresponding folder for example App.jsx & Main.jsx are in the [src folder](packages/frontend/src) The corresponding [Readme](packages/frontend/README.md) can be found in the root frontend folder.
 
 ## Launch the app to a live environment 
 Use the Link
@@ -66,7 +58,7 @@ Once done, you can run any of the following commands:
 ### `npm run dev`
 
 Runs the backend insuring the DB is ready and Node is running.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5173](http://localhost:5173/) to view it in your browser.
 
 To quit running the app, press `Ctrl`+`C`
 
@@ -90,7 +82,12 @@ To quit running the app, press `Ctrl`+`C`
 ## UI Design
 🔗[Figma Link](https://www.figma.com/file/3cz2fbjOVrCv4B95lYjomE/Ratings-%26-Reviews-App-(Community)?type=design&node-id=263-26378&mode=design&t=UGqnR5S04EDQh6o2-0)
 
+Initially my design included a Login, Signup, & Forgotten Password Page for added security, However due to time constraints it was not implimented 
+<img src="packages/frontend/src/assets/Sign in & Sign up page.png" width="1000">
+<img src="packages/frontend/src/assets/forgot password page.png" width="1000">
+
 ## User Story
+
 
 ## Diagrams
 

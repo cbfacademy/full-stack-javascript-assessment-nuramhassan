@@ -1,3 +1,57 @@
+ # <img src="packages/frontend/src/assets/logo.png" width="50"> RainBowNoir
+
+## Purpose
+RainBowNoir is a wed-based platform that offers a secure and transparent environment for comprehensive reviews of companies and products. Our assessments encompass broad categories like amenities while also integrating specific insights from neurodiverse individuals. These unique perspectives illuminate details that others might overlook or undervalue.
+
+### Why the project is useful
+
+It allows the integratiom specific insights from marginalized communities such as Black, queer, or neurodiverse individuals. These diverse perspectives shed light on nuanced details that might be overlooked or underestimated by others, enriching the depth and accuracy of our reviews.
+
+# How users can get started with the project
+
+1. From the [frontend](**packages/frontend**) folder run:
+
+### `npm install`
+
+This will ensure that all package dependencies needed to run, test and build the app are downloaded from the internet first.
+
+Once done, you can run any of the following commands:
+
+### `npm run dev`
+
+Runs the backend insuring the DB is ready and Node is running.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+To quit running the app, press `Ctrl`+`C`
+
+   
+2.  From the [backend](packages/backend) folder run:
+
+   ### `npm install`
+
+This will ensure that all package dependencies needed to run, test and build the app are downloaded from the internet first.
+
+Once done, you can run any of the following commands:
+
+### `npm run start-dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+To quit running the app, press `Ctrl`+`C`
+
+# Design
+## UI Design
+🔗[Figma Link](https://www.figma.com/file/3cz2fbjOVrCv4B95lYjomE/Ratings-%26-Reviews-App-(Community)?type=design&node-id=263-26378&mode=design&t=UGqnR5S04EDQh6o2-0)
+
+## User Story
+
+## Diagrams
+
+
+## Where users can get help with your project
+## Who maintains and contributes to the project
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/V8cWq51n)
 # Full Stack JavaScript Assessment
 
@@ -46,9 +100,9 @@ By completing this assessment, you're set for a holistic dive into full-stack de
 
 ## Requirements
 
-- **Frontend**: Utilise React for creating user interfaces
-- **Backend**: Build an API using Node.js and Express.js
-- **Database**: Utilise MongoDB for data storage
+✅  **Frontend**: Utilise React for creating user interfaces
+✅  **Backend**: Build an API using Node.js and Express.js
+✅  **Database**: Utilise MongoDB for data storage
 
 ### What we expect you to accomplish
 

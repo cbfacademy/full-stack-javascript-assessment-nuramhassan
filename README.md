@@ -1,5 +1,5 @@
 # RainBowNoir 
-
+![](packages/frontend/src/assets/rainbow-spectrum-sphere-abstract-vector-13744763.jpg)
 ## Purpose
 RainBowNoir is a wed-based platform that offers a secure and transparent environment for comprehensive reviews of companies and products. Our assessments encompass broad categories like amenities while also integrating specific insights from neurodiverse individuals. These unique perspectives illuminate details that others might overlook or undervalue.
 

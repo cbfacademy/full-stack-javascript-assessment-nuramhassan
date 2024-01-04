@@ -87,7 +87,7 @@ Initially my design included a Login, Signup, & Forgotten Password Page for adde
 <img src="packages/frontend/src/assets/forgot password page.png" width="1000">
 
 ## User Story
-
+The User Flow and explanation can be found in [User Flow Folder](docs/UserFlow.md)
 
 ## Diagrams
 

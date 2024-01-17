@@ -89,8 +89,6 @@ Initially my design included a Login, Signup, & Forgotten Password Page for adde
 ## User Story
 The User Flow and explanation can be found in [User Flow Folder](docs/UserFlow.md)
 
-## Diagrams
-
 # Tech
 
 ## TechStack
@@ -107,7 +105,7 @@ The User Flow and explanation can be found in [User Flow Folder](docs/UserFlow.m
 <!-- CONTACT -->
 ### Contact
 
-Nura Hassan - [@your_twitter](https://twitter.com/your_username) 
+Nura Hassan - nuramhassan2@gmail.com
 
 Project Link: [Repo Link](https://github.com/cbfacademy/full-stack-javascript-assessment-nuramhassan.git)
 
@@ -118,7 +116,6 @@ Project Link: [Repo Link](https://github.com/cbfacademy/full-stack-javascript-as
 <!-- ACKNOWLEDGMENTS -->
 ### Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)

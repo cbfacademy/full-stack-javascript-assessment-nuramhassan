@@ -72,7 +72,8 @@ const AddReview = () => {
       productImage: previewSrcs,
       profileImage: profileImage,
     };
-    const backend_api = process.env.REACT_APP_API;
+    const backend_api = import.meta.env.VITE_APP_API;
+    
 
     // eslint-disable-next-line no-undef
     fetch(`${backend_api}/api/product-review-upload`, {

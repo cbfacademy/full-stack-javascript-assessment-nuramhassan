@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const ReadReview = () => {
   // State to store the review list retrieved from the API
   const [reviewList, setReviewList] = useState({});
-  const backend_api = process.env.REACT_APP_API;
+  const backend_api = import.meta.env.VITE_APP_API;
 
   // Fetch review list data from the API on component mount
   useEffect(() => {

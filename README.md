@@ -44,7 +44,7 @@ It allows the integratiom specific insights from marginalized communities such a
 For both frontend and backend folders i have given detailed information to potray my logic in the ReadMe's in each corresponding folder for example App.jsx & Main.jsx are in the [src folder](packages/frontend/src) The corresponding [Readme](packages/frontend/README.md) can be found in the root frontend folder.
 
 ## Launch the app to a live environment 
-Use the Link
+Use the Link: https://full-stack-javascript-assessment-nuramhassan.vercel.app/
 
 ## Locally running the app
 1. From the [frontend](**packages/frontend**) folder run:
@@ -97,8 +97,8 @@ The User Flow and explanation can be found in [User Flow Folder](docs/UserFlow.m
 1.  **✅Frontend**: Utilise React for creating user interfaces, Tailwind for Styling
 2.  **✅Backend**: Build an API using Node.js and Express.js
 3.  **✅Database**: MongoDB for data storage, Imagebb for Image storage (Due to memory constraints i had to seperate the 2 databases as not to slow down the app
-4.  **Deployment**: backend : https://backend-rn-deployment.onrender.com
-   frontend: https://full-stack-javascript-assessment-nuramhassan-deployment.vercel.app/ 
+4.  **✅Deployment**: backend : https://backend-rn-deployment.onrender.com
+   frontend: [https://full-stack-javascript-assessment-nuramhassan-deployment.vercel.app/ ](https://full-stack-javascript-assessment-nuramhassan.vercel.app/)
 
 # Challenges & Feedback 
 

@@ -72,9 +72,10 @@ const AddReview = () => {
       productImage: previewSrcs,
       profileImage: profileImage,
     };
+    const backend_api = process.env.REACT_APP_API;
 
     // eslint-disable-next-line no-undef
-    fetch(`http://localhost:5001/api/product-review-upload`, {
+    fetch(`${backend_api}/api/product-review-upload`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

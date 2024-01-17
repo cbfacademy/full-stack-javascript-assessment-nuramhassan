@@ -6,10 +6,11 @@ import { Link } from "react-router-dom";
 const ReadReview = () => {
   // State to store the review list retrieved from the API
   const [reviewList, setReviewList] = useState({});
+  const backend_api = process.env.REACT_APP_API;
 
   // Fetch review list data from the API on component mount
   useEffect(() => {
-    fetch(`http://localhost:5001/api/product-review-list`, {
+    fetch(`${backend_api}/api/product-review-list`, {
       method: "GET",
       headers: {
         "Content-type": "application/json; charset=UTF-8",

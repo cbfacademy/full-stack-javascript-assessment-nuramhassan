@@ -87,7 +87,7 @@ Initially my design included a Login, Signup, & Forgotten Password Page for adde
 <img src="packages/frontend/src/assets/forgot password page.png" width="1000">
 
 ## User Story
-
+The User Flow and explanation can be found in [User Flow Folder](docs/UserFlow.md)
 
 ## Diagrams
 
@@ -97,7 +97,8 @@ Initially my design included a Login, Signup, & Forgotten Password Page for adde
 1.  **✅Frontend**: Utilise React for creating user interfaces, Tailwind for Styling
 2.  **✅Backend**: Build an API using Node.js and Express.js
 3.  **✅Database**: MongoDB for data storage, Imagebb for Image storage (Due to memory constraints i had to seperate the 2 databases as not to slow down the app
-4.  **❌Deployment**: AWS 
+4.  **Deployment**: backend : https://backend-rn-deployment.onrender.com
+   frontend: https://full-stack-javascript-assessment-nuramhassan-deployment.vercel.app/ 
 
 # Challenges & Feedback 
 

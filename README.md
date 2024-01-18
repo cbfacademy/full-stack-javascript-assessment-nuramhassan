@@ -99,6 +99,12 @@ The User Flow and explanation can be found in [User Flow Folder](docs/UserFlow.m
    frontend: [https://full-stack-javascript-assessment-nuramhassan-deployment.vercel.app/ ](https://full-stack-javascript-assessment-nuramhassan.vercel.app/)
 
 # Challenges & Feedback 
+![image](https://github.com/cbfacademy/full-stack-javascript-assessment-nuramhassan/assets/92251701/aee35bb5-0871-4ead-a110-1134be01efb1)
+Initially i designed multiple pages and inputs but due to authentication issues i descided to remove it.
+
+## Things to improve
+Login/Signup functionality work, but asked for authentication. 
+I think it would also help if i specified what images we are able to upload, because only png images worked (jpg).
 
 # Help & Credits 
 ## Where users can get help with your project

@@ -1,108 +1,137 @@
-# Full Stack JavaScript Assessment
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+ # <img src="packages/frontend/src/assets/logo.png" width="50"> RainBowNoir
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Introduction](#introduction)
-  - [Learning Outcomes](#learning-outcomes)
-- [Requirements](#requirements)
-  - [What we expect you to accomplish](#what-we-expect-you-to-accomplish)
-- [Getting Started](#getting-started)
-- [Things to consider whilst building your application](#things-to-consider-whilst-building-your-application)
-  - [Design](#design)
-  - [Code Quality & Structure](#code-quality--structure)
-  - [Deployment](#deployment)
-  - [Feedback](#feedback)
-- [Deliverables / What You Should Submit](#deliverables--what-you-should-submit)
+- [<img src="packages/frontend/src/assets/logo.png" width="50"> RainBowNoir](#img-srcpackagesfrontendsrcassetslogopng-width50-rainbownoir)
+  - [About RainBowNoir](#about-rainbownoir)
+    - [Why the project is useful](#why-the-project-is-useful)
+- [How users can get started with the project](#how-users-can-get-started-with-the-project)
+  - [Launch the app to a live environment](#launch-the-app-to-a-live-environment)
+  - [Locally running the app](#locally-running-the-app)
+    - [`npm install`](#npm-install)
+    - [`npm run dev`](#npm-run-dev)
+  - [2.  From the backend folder run:](#2--from-the-backend-folder-run)
+    - [`npm install`](#npm-install-1)
+    - [`npm run start-dev`](#npm-run-start-dev)
+- [Design](#design)
+  - [UI Design](#ui-design)
+  - [User Story](#user-story)
+  - [Diagrams](#diagrams)
+- [Tech](#tech)
+  - [TechStack](#techstack)
+- [Challenges & Feedback](#challenges--feedback)
+- [Help & Credits](#help--credits)
+  - [Where users can get help with your project](#where-users-can-get-help-with-your-project)
+    - [Contact](#contact)
+    - [Acknowledgments](#acknowledgments)
 
-## Introduction
 
-For your assessment, you are to create a full-stack web application of your choosing. You could build:
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-1. Search Engine
-1. Chat Application
-1. Sentiment Analysis
-1. Product Recommendation Engine
 
-or whatever you'd like.
 
-This assessment offers you the choice to embrace either a monolithic (all in one) or a mono-repo (in separate pieces) architecture for your full-stack application. While the realm of microservices is gaining traction, understanding both monolithic and mono-repo setups provides a well-rounded perspective.
+## Purpose: About RainBowNoir
+RainBowNoir is a wed-based platform that offers a secure and transparent environment for comprehensive reviews of companies and products. Our assessments encompass broad categories like amenities while also integrating specific insights from neurodiverse individuals. These unique perspectives illuminate details that others might overlook or undervalue.
 
-Opting for a monolithic architecture simplifies deployment, eases developmental complexities, and ensures a comprehensive view of the application stack. On the other hand, choosing the mono-repo route gives you a taste of modular organisation, scalable structures, and the ability to deploy parts independently while maintaining a centralised codebase. Whichever path you choose, this project ensures you garner deep insights and hands-on experience.
+### Why the project is useful
 
-By default, this codebase has been set up as a mono-repo; to deploy as a monolith, you will need to make a few adjustments. [You can find out how to make the changes in this short guide](docs/deployment.md).
+It allows the integratiom specific insights from marginalized communities such as Black, queer, or neurodiverse individuals. These diverse perspectives shed light on nuanced details that might be overlooked or underestimated by others, enriching the depth and accuracy of our reviews.
 
-### Learning Outcomes
+# How users can get started with the project
 
-By the end of this assessment, you will have demonstrated your ability to:
+## Folder Navigation 
+For both frontend and backend folders i have given detailed information to potray my logic in the ReadMe's in each corresponding folder for example App.jsx & Main.jsx are in the [src folder](packages/frontend/src) The corresponding [Readme](packages/frontend/README.md) can be found in the root frontend folder.
 
-1. **Design and Architect Applications**: Understand the nuances of designing a user-centric application, from your user's journey to how they interact with your database.
-1. **Implement Best Practices**: Showcase your proficiency in following coding standards and structuring a project optimally.
-1. **Utilise Full-Stack Development**: Master using React for your frontend, Node.js for your backend logic, and MongoDB for your data needs.
-1. **Implement CI/CD**: Get hands-on with setting up and managing a CI/CD pipeline, leveraging tools like GitHub Actions.
-1. **Deploy Applications**: Understand the process to get your applications up and running on platforms suitable for full-stack apps.
-1. **Iterative Development & Feedback**: Appreciate the value of feedback loops in your software development journey and make iterations based on real user feedback.
+## Launch the app to a live environment 
+Use the Link: https://full-stack-javascript-assessment-nuramhassan.vercel.app/
 
-By completing this assessment, you're set for a holistic dive into full-stack development using the JavaScript ecosystem and the intricacies of deploying and maintaining web applications.
+## Locally running the app
+1. From the [frontend](**packages/frontend**) folder run:
 
-## Requirements
+### `npm install`
 
-- **Frontend**: Utilise React for creating user interfaces
-- **Backend**: Build an API using Node.js and Express.js
-- **Database**: Utilise MongoDB for data storage
+This will ensure that all package dependencies needed to run, test and build the app are downloaded from the internet first.
 
-### What we expect you to accomplish
+Once done, you can run any of the following commands:
 
-- A fully deployed application with the URL to it in this README
-- Comprehensive documentation
+### `npm run dev`
 
-We have provided you with some ideas to help you achieve these, [which you can find here](#things-to-consider-whilst-building-your-application).
+Runs the backend insuring the DB is ready and Node is running.\
+Open [http://localhost:5173](http://localhost:5173/) to view it in your browser.
 
-## Getting started
+To quit running the app, press `Ctrl`+`C`
 
-We have created this codebase as a skeleton for you to use. You can adapt it to your needs.
+   
+## 2.  From the [backend](packages/backend) folder run:
 
-To get started with setting up this codebase on your machine [follow this guide we have created for you](docs/getting-started.md).
+   ### `npm install`
 
-## Things to consider whilst building your application
+This will ensure that all package dependencies needed to run, test and build the app are downloaded from the internet first.
 
-### Design
+Once done, you can run any of the following commands:
 
-- **User Flow**: Outline the user journey, considering main actions and navigation
+### `npm run start-dev`
 
-- **UI/UX**: Sketch a simple UI using tools like Figma or Adobe XD. Ensure a thoughtful user experience and consider tools like Google Lighthouse for insights on performance and accessibility
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-For more tips refer to the [Design guide](docs/design-guide.md).
+To quit running the app, press `Ctrl`+`C`
 
-### Code Quality & Structure
+# Design
+## UI Design
+🔗[Figma Link](https://www.figma.com/file/3cz2fbjOVrCv4B95lYjomE/Ratings-%26-Reviews-App-(Community)?type=design&node-id=263-26378&mode=design&t=UGqnR5S04EDQh6o2-0)
 
-- **Best Practices**: Adhere to coding best practices such as naming conventions, DRY principles, and more
+Initially my design included a Login, Signup, & Forgotten Password Page for added security, However due to time constraints it was not implimented 
+<img src="packages/frontend/src/assets/Sign in & Sign up page.png" width="1000">
+<img src="packages/frontend/src/assets/forgot password page.png" width="1000">
 
-- **Design Patterns**: Consider popular patterns, like MVC, to structure your web application
+## User Story
+The User Flow and explanation can be found in [User Flow Folder](docs/UserFlow.md)
 
-For more tips refer to the [Code Quality & Structure guide](docs/code-quality-standards.md).
+# Tech
 
-### Deployment
+## TechStack
+1.  **✅Frontend**: Utilise React for creating user interfaces, Tailwind for Styling
+2.  **✅Backend**: Build an API using Node.js and Express.js
+3.  **✅Database**: MongoDB for data storage, Imagebb for Image storage (Due to memory constraints i had to seperate the 2 databases as not to slow down the app
+4.  **✅Deployment**: backend : https://backend-rn-deployment.onrender.com
+   frontend: [https://full-stack-javascript-assessment-nuramhassan-deployment.vercel.app/ ](https://full-stack-javascript-assessment-nuramhassan.vercel.app/)
 
-- **Platform**: Deploy on a platform like [Heroku](https://www.heroku.com/), [Vercel](https://vercel.com/), [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform/), or [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/).
+# Challenges & Feedback 
+![image](https://github.com/cbfacademy/full-stack-javascript-assessment-nuramhassan/assets/92251701/aee35bb5-0871-4ead-a110-1134be01efb1)
+Initially i designed multiple pages and inputs but due to authentication issues i descided to remove it.
 
-- **Domain**: If you'd like, purchase a domain name from providers like [Namecheap](https://www.namecheap.com/) or [GoDaddy](https://www.godaddy.com/) and link it to your deployed application. If using AWS, you can manage domain names with [AWS Route 53](https://aws.amazon.com/route53/).
+## Things to improve
+Login/Signup functionality work, but asked for authentication. 
+I think it would also help if i specified what images we are able to upload, because only png images worked (jpg).
 
-For more tips refer to the [Deployment Guide](docs/deployment.md).
+# Help & Credits 
+## Where users can get help with your project
+<!-- CONTACT -->
+### Contact
 
-### Feedback
+Nura Hassan - nuramhassan2@gmail.com
 
-- **User Feedback**: Design a system to capture user feedback, whether it's through user interviews, surveys, or another medium
+Project Link: [Repo Link](https://github.com/cbfacademy/full-stack-javascript-assessment-nuramhassan.git)
 
-- **Iterative Development**: Use feedback to make improvements to your application, refining it based on real user needs
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-For more tips refer to the [Feedback Implementation Guide](docs/feedback-guide.md).
 
-## Deliverables / What You Should Submit
 
-1. The link to your GitHub repository
+<!-- ACKNOWLEDGMENTS -->
+### Acknowledgments
 
-1. A deployed version of your application
 
-1. Comprehensive documentation detailing your thought process, design choices, and more
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
 
----
 
-Good luck with your assessment! You've got this 💪
+
+
